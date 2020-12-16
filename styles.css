@@ -52,7 +52,7 @@
 }
 
 .VIDEO_CONTAINER {
-  width: 400px;
+  width: 650px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -64,12 +64,34 @@
 }
 
 .VIDEO {
-  width: 300px;
-  height: 200px;
+  width: 650px;
+  height: 500px;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 450px) {
   .VIDEO {
-    width: 250px;
+    width: 100px;
+    height: 125px;
+  }
+
+  .VIDEO_CONTAINER {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .VIDEO {
+    width: 400px;
+    height: 300px;
+  }
+
+  .VIDEO_CONTAINER {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
   }
 }
