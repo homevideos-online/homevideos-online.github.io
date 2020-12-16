@@ -62,3 +62,14 @@
   margin: 0;
   font-weight: bold;
 }
+
+.VIDEO {
+  width: 300px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 300px) {
+  .VIDEO {
+    width: 250px;
+  }
+}
